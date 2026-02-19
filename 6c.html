@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    // 1. Using prompt()
+    var name = prompt("Enter your name:");
+    document.write("Name: " + name + "<br>");
+
+    // 2. Using HTML input field
+</script>
+
+<input type="text" id="userInput">
+<button onclick="getInput()">Submit</button>
+
+<script>
+function getInput() {
+    var value = document.getElementById("userInput").value;
+    alert("You entered: " + value);
+}
+</script>
+
+</body>
+</html>
